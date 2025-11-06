@@ -1,35 +1,8 @@
-# SmartGate
-Système de contrôle automatisé des frontières par reconnaissance faciale
-
-Réalisé par : Rime Znady
-
-Description
-
-SmartGate est un système intelligent de contrôle des frontières qui automatise la vérification des voyageurs grâce à la reconnaissance faciale en temps réel.
-Il permet une gestion sécurisée et rapide des accès en identifiant les individus à partir de leurs données biométriques et en validant leurs informations dans une base de données nationale.
-
-Fonctionnalités
-
--Détection et identification faciale en temps réel
-
--Vérification des données du passeport via la base de données
-
--Validation automatique de l’accès selon les résultats de correspondance
-
--Sécurisation et chiffrement des données
-
--Intégration d’une caméra pour la capture d’images en direct
-
-Technologies utilisées
-
-Python (OpenCV, face_recognition)
-
-Base de données : MySQL / SQLite
-
-Framework : Flask (pour l’interface web)
-
-Matériel : Caméra pour la reconnaissance faciale
-
-Objectif
-
-Offrir un système de contrôle aux frontières intelligent, rapide et fiable, réduisant les interventions manuelles et renforçant la sécurité nationale grâce à l’automatisation.
+> Why do I have a folder named ".expo" in my project?
+The ".expo" folder is created when an Expo project is started using "expo start" command.
+> What do the files contain?
+- "devices.json": contains information about devices that have recently opened this project. This is used to populate the "Development sessions" list in your development builds.
+- "settings.json": contains the server configuration that is used to serve the application manifest.
+> Should I commit the ".expo" folder?
+No, you should not share the ".expo" folder. It does not contain any information that is relevant for other developers working on the project, it is specific to your machine.
+Upon project creation, the ".expo" folder is already added to your ".gitignore" file.
